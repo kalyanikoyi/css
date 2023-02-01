@@ -1,0 +1,17 @@
+p{
+    margin: 20px
+}
+#width{
+    border: 2px solid black;
+    width: 50%;
+}
+#widthMargin{
+    border: 2px solid black;
+    width:50%;
+    margin: auto;
+}
+
+#padding{
+    border: 2px solid black;
+    padding: 20px;
+}

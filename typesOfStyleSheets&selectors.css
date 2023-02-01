@@ -1,0 +1,50 @@
+*{
+    font-style: italic;
+}
+.fontSize{
+    font-size: 20px;
+}
+h3{
+    color: blue;
+}
+#id{
+    background-color: coral;
+}
+h3[color]{
+    background-color: aquamarine;
+}
+#hover:hover{
+    font-size: 30px;
+    color:red
+}
+div :first-child{
+    color : red
+}
+div :last-child{
+    color:blue
+}
+div p :first-of-type{
+    background-color: aquamarine;
+}
+div :last-of-type(p){
+    background-color: bisque;
+}
+div :nth-child(3){
+    font-size: 30px;
+}
+div :nth-last-child(2){
+    border:2px solid black
+}
+div p :nth-of-type(2){
+    border:2px dashed red
+}
+div :only-child :hover{
+color:blue
+}
+
+#firstLtr::first-letter{
+    color: red;
+}
+#firstLine::first-line{
+    background-color: aquamarine;
+}

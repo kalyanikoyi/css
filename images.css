@@ -1,0 +1,43 @@
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#first{
+    width: 500px;
+    border: 2px solid red;
+    float: left;
+}
+#second{
+    width: 500px;
+    border: 2px solid blue;
+    float: right;
+}
+#sp{
+    font-size: 25px;
+    font-weight: 300;
+    color: red;
+    margin-left: 40%;
+    
+}
+#an{
+    font-size: 25px;
+    font-weight: 300;
+    color:blue;
+    margin-left: 40%;
+}
+#third{
+    border: 2px solid green;
+    clear: left;
+}
+#thirdClearBoth{
+    border: 2px solid green;
+    clear : both
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+

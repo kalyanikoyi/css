@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./typesOfStyleSheets&selectors.css">
+    <style type="text/css">
+h2{
+    color:blue;
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <h1 style="color:red;background-color:yellow">Inline styling:- we directly add style properties in the tag itself by using style attribute.It is applicable to only that particular element. </h1>
+    <h2>Internal styling :- we use internal styling to add styling properties to only that particular page.we use style tag in head</h2>
+    <h3 class="fontSize">External styling :- External style sheet can be applied to any html file. we need to create seperate css file and we need to attach that file  to html file by using link tag in head <br></h3>
+   <h3 class="fontSize">In order to use external style sheet we have to know some selectors. <br></h3> 
+ <h3 class="fontSize"> we have 6 types of selectors <br>
+<h3 class="fontSize"> 1.universal selector (*) .It applies styling properties to all the elements.Here i applied font-style as italic to all the elements .</h3>
+<h3 class="fontSize">2.class selector(.).using this selector we can apply styles to particular group of elemets. Here i used class selector for all h3 tags.i changed font size to 20  </h3>
+<h3 class="fontSize">3.element selector(we use tag names).we can use element selector to apply styles to particular group of same tags.Here iam taking h3 tag and applying font color to blue</h3>
+<h3 class="fontSize" id="id">4.Id selector(#).If we want to apply styling to unique tag then we use id selector.now iam adding background color to this tag</h3>
+<h3 class="fontSize" color="blue">5.Attribute selector (using attributes we can add style properties)</h3> <br><br>
+<h3 class="fontSize">6.psuedo classes</h3> 
+<h3>We have psuedo classes like </h3>
+<h4>1.First child</h4>
+<h4>2.Last child</h4>
+<h4>3.First-of-type</h4>
+<h4>4.Last-of-type</h4>
+<h4>5.nth child()</h4>
+<h4>6.nth last child()</h4>
+<h4>7. nth of type()</h4>
+<h4>8.nth of last type()</h4>
+<h4>9.only of type</h4>
+<h4>10.only child</h4>
+<h4>11.empty</h4>
+<h4>12.not()</h4>
+<h4>13.hover</h4>   
+
+<h4 id="hover">Hover  (when we hover on it the given styling properties will apply.)</h4>
+
+<div>
+  <p>This is the first child of div tag .added red color</p>
+  <h4>This is the second child of div</h4>
+  <h5>This is the 3rd child of div. added font-size </h5>
+      <h6>----This is the child of h5 tag(3rd child of div) </h6>
+      <p>----this is the second child of h5 tag(3rd child of div)</p>
+   <h2>This is the 4rd child of div</h2> 
+   <p>This is the 5th child of div</p> 
+   <h4>This is the 6th child of div</h4> 
+  <p>this is the last child of div. added blue color</p>
+</div>
+<br><br>
+
+<h3>psedo elements</h3>
+<h4 id="firstLtr">1.first letter (added red color)</h4>
+<h4 id="firstLine">2.first line . <br>ghjkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj <br>jjjjjjjjjjjjjjj (added background color)</h4>
+<h4 id="before">3.before</h4>
+<h4 id="after">4.after</h4>
+<h4>marker</h4>
+
+
+
+
+
+
+
+</body>
+</html>

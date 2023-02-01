@@ -1,0 +1,40 @@
+#solid{
+    border: 2px solid red;
+}
+#dotted{
+border: 2px dotted blue;
+}
+#dashed{
+    border: 2px dashed green;
+}
+#double{
+    border: 2px double yellow;
+}
+#groove{
+    border: 2px groove purple;
+}
+#ridge{
+    border: 2px ridge orange;
+}
+#inset{
+    border: 2px inset violet;
+}
+#outset{
+    border: 2px outset pink;
+}
+#none{
+    border: none;
+}
+#borderWidth{
+    border-width: 2px 5px 10px 20px;
+    border-style: solid;
+}
+#borderColor{
+    border-color: red blue green yellow;
+    border-style: solid;
+
+}
+#borderRadius{
+    border-radius: 10px;
+    border-style: solid;
+}

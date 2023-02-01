@@ -1,0 +1,24 @@
+#visible{
+    border: 2px solid red;
+    width: 50%;
+    height: 50px;
+    overflow: visible;
+}
+#hidden{
+    border: 2px solid red;
+    width: 50%;
+    height: 50px;
+    overflow: hidden;
+}
+#scroll{
+    border: 2px solid red;
+    width: 50%;
+    height: 50px;
+    overflow: scroll;
+}
+#auto{
+    border: 2px solid red;
+    width: 50%;
+    height: 50px;
+    overflow: auto;
+}

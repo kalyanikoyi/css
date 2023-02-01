@@ -1,0 +1,9 @@
+#bgColor{
+    background-color: aqua;
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/02/17/45/christmas-rose-7631380__480.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
